@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ title }} &mdash; {{ summary }}</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta name="robots" content="index,follow" />
+
+  <meta name="title" content="{{ title }} &mdash; {{ summary }}"/>
+  <meta name="keywords" content="{% for tag in tags %}{{ tag }},{% endfor %}" />
+  <meta name="description" content="{{ description }}" />
+  
+  <meta name="revisit-after" content="2 days" />
+
+  <meta property="og:title" content="{{ title }} &mdash; {{ summary }}"/>
+  <meta property="og:image" content="{{ featureImageUrl }}"/>
+  <meta property="og:site_name" content="{{ title }}"/>
+
+  <meta property="og:description" content="{{ description }}"/>
+  <meta property="og:type" content=""/>
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="{{ twitterUsername }}" />
+  <meta name="twitter:title" content="{{ title }}" />
+  <meta name="twitter:description" content="{{ summary }}" />
+  <meta name="twitter:image" content="{{ featureImageUrl }}" />
+  <meta name="twitter:url" content="{{ currentUrl }}" />
+        
+  <meta name="Page-Topic" content="" />
+  <meta name="author" content="" />
+  <meta name="copyright" content="" />
+
+  <meta property="og:url" content=""/>
+  <meta property="fb:admins" content=""/>
+  <meta property="og:email" content=""/>
+  <meta property='og:locale' content="en_US"/>        
+</head>
+<body>
+
+</body>
+</html>
